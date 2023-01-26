@@ -1,5 +1,5 @@
 # 1st_Semester_Project_LaborLink
-I have developed a website that links users with workers.
+I developed a website that links users to workers. The major goal is to give users a platform where they can interact with labourers and contact them for work. The opportunity for labourers to list their work, experience, contact information, and availability. Additionally, workers can determine their own prices in accordance with the hours they put in, allowing them to make a respectable living. Tests will be used to certify that workers are fit for their jobs.
 
 ![screencapture-127-0-0-1-5501-landing-html-2023-01-26-18_46_40](https://user-images.githubusercontent.com/109297627/214852793-7f021bf4-c199-4e97-aa44-b1b0fdee6abd.png)
 ![screencapture-127-0-0-1-5501-html-SignUp-html-2023-01-26-18_47_42](https://user-images.githubusercontent.com/109297627/214852799-e39e780e-b134-461f-9bb6-cc80ecf4043e.png)
