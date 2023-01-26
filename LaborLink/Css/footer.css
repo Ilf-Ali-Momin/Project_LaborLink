@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.footmain{
+    margin-top: 10px;
+    background-color: #252525;
+    padding-bottom: 90px;
+}
+.foot1 img{
+    margin-left: 130px;
+    margin-bottom: -10px;
+    margin-top: -60px;
+}
+.foot1 ul{
+    
+    display: flex;
+    margin-left: 460px;
+    margin-top: -107px;
+}
+.foot1 ul li{
+    margin-left: 20px;
+    list-style: none;
+    color: white;
+    
+}
+.btn6{
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-top: -6px;
+    border-radius: 15px;
+    padding: 6px 20px;
+   background-color: transparent;
+   border-color: white;
+   color: white;
+   cursor: pointer;
+}
+i{
+    color: white;
+    margin-left: 0px;
+}

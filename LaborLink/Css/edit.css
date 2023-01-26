@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Poppins&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:#ffffff;
+
+}
+#imgbox img{
+    border:solid black 2px;
+    border-radius: 50%;
+    width: 100px;
+      height: 100px;
+      text-align: center;
+      margin-top: 80px;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+.section1{
+    text-align: center;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 1px black;
+}
+.section2{
+    padding: 60px;
+    background-color: rgb(255, 255, 255);
+    border-left: solid rgb(89, 89, 89) 1px;
+    border-right: solid rgb(89, 89, 89) 1px;
+
+}
+.section3{
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    padding-top: 60px;
+}
+input{
+    margin-top: 20px;
+    height: 35px;
+    border: solid black .5px;
+    color: black;
+    outline: none;
+    width: 180px;
+    padding-left: 10px;
+}
+#hline,#cp,#edu{
+    width: 407px;
+}
+#sname,#state{
+    margin-left: 32px;
+}
+h4{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+#save{
+    border-radius: 20px;
+    background-color: #252525;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    margin-top: 40px;
+}
+span{
+    font-size: 18px;
+    color: rgb(118, 118, 118);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#profilep1,#profilep2{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#profilep2{
+    margin-top: 10px;
+}
+#box1 img{
+    width: 20px;
+    margin-right: 10px;
+}
+#boxspan{
+    font-size: 12px;
+}
+#box1{
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+}
+#exp{
+   
+    height: 30px;
+    width: 90px;
+    background-color:#252525;
+    outline: none;
+    color: white;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border-radius: 4px;
+    margin-left: 25px;
+}
+.top{
+    display: flex;
+}
+#editp{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+#boxp{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 10px;
+}

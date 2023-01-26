@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior:smooth(8);
+    
+}
+html{
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.main_img{
+    z-index: 2;
+    width: auto;
+    height: 90vh;
+    margin-top: 40px;
+    position: relative;
+    background-image: url("/pic/main_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.main_img::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-image: linear-gradient(to right, #220135, rgb(21, 2, 56)); 
+    opacity: .75;
+    
+}
+.container1{
+    z-index: 12;
+    
+}
+#h2_1{
+    font-size: 150px;
+    color: white;
+}
+#p_1{
+    font-size: 50px;
+    letter-spacing: 6px;
+    color: white;
+    margin-top: -56px;
+}
+#button_1{
+    padding: 10px;
+    width: 150px;
+    margin-top: 25px;
+    color: #220135;
+    font-size: 18px;
+    background-color: white;
+}
+#button_1:hover{
+    background-color: #220135;
+    color: white;
+}
+#button_1 a:hover{
+  color: white;
+}
+.btn3{
+  margin-left: 20px;
+  background-color: transparent;
+  color: white;
+  border-color: white;
+}
+.blender{
+    width: auto;
+    height: 100px;
+    background-color: red;
+    background-image: linear-gradient(to bottom, #534169, black); 
+    z-index: 10;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    background-color: black;
+    height: 550px;
+    /* border-radius: 50px; */
+    
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.category h1{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+}
+.category b{
+    margin-top: 50px;
+    color: #764991;
+}
+.maincards{
+    margin-bottom: 90px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.p1{
+    margin-left: 34px;
+}
+
+.p3{
+    margin-left: 20px;
+}
+.p4{
+    margin-left: -5px;
+}
+.team{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.square1 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(to bottom, #fbff00, black); 
+    transition: .7s;
+  }
+  .square1:hover{
+    transition: .7s;
+    background-image: linear-gradient(to top, #fbff00, black); 
+    
+
+  }
+  .square2 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient(to bottom, #00fff2, black); 
+    transition: .7s;
+  }
+  .square2:hover{
+    transition: .7s;
+    background-image: linear-gradient(to top, #00fff2, black); 
+
+  }
+  .square3 {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    height: 250px;
+    width: 250px;
+    transition: .7s;
+    background-image: linear-gradient(to bottom, #ff0000, black); 
+  }
+  .square3:hover{
+    transition: .7s;
+    background-image: linear-gradient(to top, #ff0000, black); 
+
+  }
+  .ourteam{
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 30px;
+  }
+  .square1 img{
+    margin-top: -70px;
+  }
+  .square2 img{
+    margin-top: -26px;
+    margin-left: 30px;
+  }
+  .square3 img{
+    margin-top: -80px;
+    margin-left: -40px;
+  }
+  .square1 p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  .square2 p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+  .square3 p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
+ .sec{
+    background-color: rgb(255, 255, 255);
+    padding-top: 40px;
+    color: rgb(32, 24, 24);
+ }
+ .sec h1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 30px;
+ }
+ .icons{
+    margin-left: 460px;
+    margin-top: 50px;
+    color: black;
+ }
+ .size{
+    margin-left: 60px;
+ }
+ .fa-apple, .fa-android , .fa-earth-americas, .fa-windows, .fa-linux{
+    color: black;
+ }
+ #preloader{
+  background:#000 url("/pic/circle-loader-gif-2.gif") no-repeat center center;
+ background-size: 15%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100 ;
+ }
+ /* .msgbox{
+    border: solid black 1px;
+    display: inline-block;
+    position: absolute;
+    left: 130vh;
+ } */
+
+
+ 

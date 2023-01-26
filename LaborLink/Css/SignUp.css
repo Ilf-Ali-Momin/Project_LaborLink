@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+  }
+
+.main{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    
+    padding-bottom: 35px;
+}
+.container{
+    width: 80%;
+    height: 80vh;
+    background-image: linear-gradient(to right, rgb(34, 1, 53), rgb(21, 2, 56)); 
+    padding: 10px;
+    display: flex;
+    border-bottom-left-radius: 55px;
+    margin-top: 40px;
+    border-top-right-radius: 55px;
+
+}
+.img{
+    width: 55%;
+    height: 77vh;
+    border-bottom-left-radius: 55px;
+    border-top-right-radius: 55px;
+    background-image: url("/pic/ezgif.com-gif-maker\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.info{
+    width: 55%;
+    height: 75vh;
+    text-align: center;
+    margin-left: 10px;
+    background-color: transparent;
+}
+input{
+    background-color: transparent;
+    /* height: 40px; */
+    width: 250px;
+    padding: 13px;
+    font-size: 15px;
+    border-top: 10px;
+    border-left: 10px;
+    border-right: 10px;
+    outline: none;
+    color: white;
+}
+input:hover{
+    border-bottom-color: rgb(255, 255, 255);
+    transition: 1s;
+}
+#heading1{
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: white;
+}
+#btn1{
+    margin-top: 13px;
+    padding: 7px 55px;
+    border-radius: 20px;
+    border-color: transparent;
+}
+i{
+    color: white;
+}
+.navmain{
+background-color: transparent;}
+.nav1{
+    margin-bottom: -23px ;
+    margin-left: 30px;
+}
+.nav1 img{
+    margin-left: 200px;
+    margin-bottom: -10px;
+    margin-top: -60px;
+}
+.nav1 ul{
+    
+    display: flex;
+    margin-left: 460px;
+    margin-top: -107px;
+}
+.nav1 ul li{
+    margin-left: 30px;
+    list-style: none;
+    
+}
+.btn1{
+    margin-left: 110px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+button{
+    margin-top: -6px;
+    border-radius: 15px;
+    padding: 6px 20px;
+    border-color: transparent;
+}
+.btn1:hover{
+    border-bottom-color: rgb(24, 1, 24);
+    transition: 2s;
+}
+
+.btn2:hover{
+    border-bottom-color: rgb(24, 1, 24);
+    transition: 2s;
+}
+.btn2{
+    margin-right: 20px;
+    cursor: pointer;
+}

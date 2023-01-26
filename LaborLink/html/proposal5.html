@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/proposal.css">
+    <link rel="stylesheet" href="/Css/SignUp.css">
+    <script src="/JS/drift.js"></script>
+    <link rel="icon" type="image/x-icon" href="/pic/Minimalist Initial Letter Logo (1).png">
+
+    <title>Driver</title>
+   
+</head>
+<body id="mainbod">
+    <div id="maincont">
+    <div id="preloader"></div>
+    <div class="navmain">
+        <nav class="nav1">
+            <div class="imgdiv">
+    <link rel="stylesheet" href="//proposal.css">
+    <a href="/landing1.html"><img src="/pic/Minimalist_Initial_Letter_Logo-removebg-preview.png" alt="" width="200px"></a>
+            </div>
+            <div class="uldiv">
+            <ul>
+               <a href="/html/landing1.html"><li>Home</li></a> 
+               <a href="/html/about.html"> <li>About</li></a> 
+               <a href="/html/card_slider.html"><li>Browse Jobs</li></a> 
+               <i style="color: black; margin-left: 100px;" class="fa-regular fa-bell"></i>
+               <i style="color: black; margin-left: 20px;" class="fa-regular fa-message"></i>
+               <p style="border-left: 1px solid rgb(172, 172, 172);
+               height: 30px; margin-left: 20px; margin-top: -8px;"></p>
+               <div style="margin-top: -5px;">
+              <a href="/html/profile.html"> <img style=" margin-left: 12px;" src="pic/ezgif.com-gif-maker (3).png" alt="" width="30px" height="30px" ></a></div>
+               <div style="margin-left: 4px; margin-top: -4px;">
+                <p style="margin-top: -9px; font-size: 12px;">@ilfalimomin</p>
+                <p style="font-size: 12px; ">$26.8</p>
+               </div>
+            </ul>
+        </div>
+        
+        </nav>
+    </div>
+    <div class="mainn">
+    <div class="cardpro">
+       <b><p style="font-size: 30px; margin-left: 500px;">Need a Driver</p></b>
+    </div>
+    <div style="margin-left: 200px;margin-top: 20px; margin-right: 100px; box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; padding-left: 20px; padding-bottom: 20px; border-radius: 20px;">
+        <div style="display: flex;">
+        <div>
+           <p style="margin-top: 15px;">Work detail</p> 
+        </div>
+        <div style="margin-left: 700px;">
+            <p><b>$70 </b></p>
+            <p style="font-size: 14px;">BIDDING ENDS IN 6 DAYS, 23 HOURS</p>
+        </div>
+        
+    </div>
+    <hr>
+    <div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, tenetur?</p><br>
+        <p><b>Skill Require</b></p>
+        <div style="display: flex; margin-top: 20px;">
+        <p style="padding: 3px 10px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;  border-radius: 20px;">Staying in-control</p>
+        <p style="padding: 3px 10px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;  border-radius: 20px;">Knowledge of a car</p>
+        <p style="padding: 3px 10px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;  border-radius: 20px;"> Reading the road</p>
+        <p style="padding: 3px 10px; box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; border-radius: 20px;"> Staying alert</p>
+    </div>
+    </div>
+    </div>
+
+
+    <div style="margin-left: 200px;margin-top: 20px; margin-right: 100px; box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; padding-left: 20px; padding-bottom: 20px; border-radius: 20px;">
+        <div>
+            <br>
+            <p><b>Place a Bid on this Work Proposal</b></p>
+            
+        </div>
+        <hr>
+        <br>
+        <div>
+          <b>  <p style="font-size: 12px; "><label for="w3review">Describe your proposal</label></p></b>
+  <textarea id="proposal" name="proposal" rows="9" cols="90" placeholder="What makes you the best candiadate for this project?" required></textarea>
+  
+
+        </div>
+        
+        <button onclick="poppage()"  style="padding: 6px 20px; background-color: #252525; color: white; margin-top: 20px;">Place Bid</button>
+        <p id="demo" style="color: green; font-size: 20px; text-align: center;"></p>
+     
+    </div>
+    
+</div>
+ </div>
+</div>
+ <div id="popup">
+    <br>
+    <p id="pop-p"  >Your Bid has been Submited</p>
+    <br>
+  <a href="/html/card_slider.html">  <button id="pop-btn"  onclick="cancelsubmit()">Close</button></a>
+
+</div>
+ <script>
+    function myFunction() {
+      document.getElementById("demo").innerHTML = "Bid Submited";
+    }
+    function poppage(){
+        document.getElementById("popup").style.visibility= "visible";
+        
+        document.getElementById("maincont").style.filter= "blur(3px)";
+        document.getElementById("popup").style.filter= "blur(0px)";
+    }
+    function cancelsubmit(){
+        document.getElementById("popup").style.visibility="hidden";
+        document.getElementById("maincont").style.filter= "blur(0px)";
+    }
+
+    </script>
+</body>
+</html>

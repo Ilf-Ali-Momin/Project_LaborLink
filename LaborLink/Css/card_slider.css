@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Poppins&display=swap');
+:root{
+    --bg: rgb(240, 240, 240);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+  }
+.navmain{
+    background-color: transparent;}
+    .nav1{
+        margin-bottom: -23px;
+    }
+    .nav1 img{
+        margin-left: 200px;
+        margin-bottom: -10px;
+        margin-top: -60px;
+    }
+    .nav1 ul{
+        
+        display: flex;
+        margin-left: 460px;
+        margin-top: -107px;
+    }
+    .nav1 ul li{
+        margin-left: 30px;
+        list-style: none;
+        
+    }
+    .btn1{
+        margin-left: 110px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    button{
+        margin-top: -6px;
+        border-radius: 15px;
+        padding: 6px 20px;
+        border-color: transparent;
+    }
+    .btn1:hover{
+        border-bottom-color: rgb(24, 1, 24);
+        transition: 2s;
+    }
+    
+    .btn2:hover{
+        border-bottom-color: rgb(24, 1, 24);
+        transition: 2s;
+    }
+    .btn3{
+        margin-left: 20px;
+        background-color: transparent;
+        color: white;
+        border-color: white;
+      }
+    .btn2{
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .container{
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.search{
+    width: 600px;
+    height: auto;
+    padding: 10px;
+    /* background-color: var(--bg); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 25px;
+}
+i{
+    color: rgb(36, 35, 35);  
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    border-radius: 25px;
+    /* background-color: var(--bg); */
+    padding: 10px;
+    border: none;
+
+}
+
+input[type=button], input[type=submit]{
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: rgb(36,35,35);
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+}
+/* card css */
+.card{
+    padding-top: 10px;
+}
+.card1{
+    height: auto;
+    padding: 10px;
+    /* background-color: var(--bg); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-left: 100px;
+    margin-right: 50px;
+    border-radius: 20px;
+}
+.info_card{
+    display: flex;
+    
+}
+.profile_pic{
+    width: 100px;
+    height: 100px;
+    background-image: url("/pic/mack-wilson.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 13px;
+    /* border-radius: 50px; */
+    background-color: goldenrod;
+    padding: 5px;
+}
+.newline{
+    display: flex;
+}
+.info_text{
+    padding: 10px;
+}
+.info_text h1{
+    font-size: 25px;
+}
+.newline p{
+    margin-left: 10px;
+}
+.star{
+    color: goldenrod;
+    margin-right: 10px;
+}
+.main_info{
+    display: flex;
+    justify-content: space-between;
+
+}
+.main_info h2{
+    margin-left: 800px;
+    font-size: 30px;
+    color: rgb(112, 110, 110);
+}
+.main_info h1{
+    color: rgb(46, 45, 45);
+}
+.btnn:hover{
+    background-color: #757373;
+}
+.btnn{
+    padding: 6px 20px; 
+    background-color: #252525; 
+    color: white; 
+    margin-top: 20px; }
+
+    .btnnn:hover{
+        background-color: #757373;
+    }
+    .btnnn{
+        padding: 6px 20px; 
+        background-color: #252525; 
+        color: white; 
+        margin-top: 20px; }

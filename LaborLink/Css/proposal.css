@@ -1,0 +1,51 @@
+
+.cardpro{
+    background-color: #252525;;
+    margin-top: 50px;
+    padding: 50px 0px;
+}
+.cardpro p{
+    margin-left: 260px;
+    color: white;
+    font-size: 20px;
+}
+#popup{
+    background-color: rgb(37, 37, 37);
+     display: inline-block;
+     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    width: 500px;
+    height: 180px;
+    border-radius: 20px;            
+    visibility: hidden;
+    z-index: 1000;
+    position: absolute;
+    text-align: center;
+    left: 60vh;
+    bottom: 30vh;
+    margin-left: 100px;
+    filter: blur(0px);
+
+    
+}
+#pop-p{
+    font-size: 20px;
+    color: rgb(59, 231, 44);
+}
+#pop-btn{
+    margin-top: 20px;
+    background-color: rgb(173, 10, 10);
+    color: white;
+}
+#pop-btn:hover{
+    background-color: rgb(255, 10, 10);
+}
+
+#close{
+    float: right;
+}
+
+
+#mainbod{
+    z-index: 10;
+    position:absolute;
+}
