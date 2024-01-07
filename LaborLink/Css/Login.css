@@ -31,7 +31,7 @@ a{
     height: 77vh;
     border-bottom-left-radius: 55px;
     border-top-right-radius: 55px;
-    background-image: url("/pic/face-mask-illness.jpg");
+    background-image: url("pic/face-mask-illness.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
