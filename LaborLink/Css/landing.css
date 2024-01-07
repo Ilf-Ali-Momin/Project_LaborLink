@@ -17,7 +17,7 @@ a{
     height: 90vh;
     margin-top: 40px;
     position: relative;
-    background-image: url("/pic/main_bg.png");
+    background-image: url("pic/main_bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: center;
@@ -216,7 +216,7 @@ a{
     color: black;
  }
  #preloader{
-  background:#000 url("/pic/circle-loader-gif-2.gif") no-repeat center center;
+  background:#000 url("pic/circle-loader-gif-2.gif") no-repeat center center;
  background-size: 15%;
   height: 100vh;
   width: 100%;
